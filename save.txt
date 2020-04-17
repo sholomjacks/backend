@@ -1,0 +1,31 @@
+//     valid_usersUn = await redibase.get('validUsers')
+//     const valid_users = JSON.parse(valid_usersUn)
+//     const user = {
+//         username: req.headers.Username,
+//         password: req.headers.Password
+//     }
+
+//     validate = async (usernameparam, passwordparam) => {
+//         real_password = await redibase.get(valid_users.usernameparam)
+//         return password
+//     }
+
+//     if (validate(user.username, user.password) !== null) {
+
+//         if (user.password === password) {
+
+//             jwt.sign({ user }, 'secretkey', (err, token) => {
+//                 res.json(token);
+//             });
+//         } else {
+//             res.json('INVALID LOGIN')
+//         }
+//     } else {
+//         res.json('INVALID LOGIN')
+//     }
+// });
+
+// // FORMAT OF TOKEN
+// // Authorization: Bearer <access_token>
+
+// // Verify Token
